@@ -1,0 +1,46 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: url(images.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1{
+    font-size: 3rem;
+    color: cornflowerblue;
+    font-family: 'Ranchers', cursive;
+}
+
+.container{
+    height: 70%;
+    width: 60%;
+    margin: 40px auto;
+}
+
+.buffer{
+    height: 20rem;
+  }
+
+.btn-xl{
+    font-weight: 700;
+    border-radius: 300px;
+}
+
+.btn-primary{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.btn:hover{
+    background-color: cyan;
+    border-color: cyan;
+}
